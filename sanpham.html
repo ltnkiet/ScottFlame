@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Scott Flame</title>
+	      <link rel="stylesheet" type="text/css" href="./css/sanpham.css">
+    </head>
+    <body>
+        <div class="bg1">
+            <img class="size1" src="./img/anhba.jpg">		
+        </div>
+        <div class="bg2">
+                <h1 style="color: white;">Scott Flame</h1>
+        </div>
+        <!-- <div class="SOHOTLINE">
+            <p style="color: RED;">
+                HOTLINE: 0377.582.406
+            </p>
+        </div> -->
+        <div class="trangchu">
+            <h3><a style="color: white;" href="index.php">Trang chủ</a></h3>
+        </div>
+        <div class="newsp">
+            <h3><a style="color: white;" href="index.php">Sản phẩm mới</a></h3>
+        </div>
+        <div class="nam">
+            <h3><a style="color: white;" href="index.php">Nam</a></h3>
+        </div>
+        <div class="nu">
+            <h3><a style="color: white;" href="index.php">Nữ</a></h3>
+        </div>
+        <div class="kid">
+            <h3><a style="color: white;" href="index.php">Trẻ em</a></h3>
+        </div>
+        <div class="sale">
+            <h3><a style="color: white;" href="index.php">Giảm giá/Khuyến mãi</a></h3>
+        </div>
+        <div class="login">
+            <a href="login.php"><img class="slogin" src="./img/User_Icon.png"></a>
+        </div>
+        <div class="giohang">
+            <a href="http://localhost/Project-Php/sanpham.html"><img class="sgiohang" src="./img/giohang-removebg-preview.png"></a>
+        </div>
+        <!-- <div class="bagach">
+            <a href=""><img class="s3gach" src="./img/bagach.jpg"></a>
+        </div> -->
+        <div class="sanpham1">
+            <div>
+                <h2 style="text-align:center">SẢN PHẨM</h2>
+
+                <div class="container">
+                  <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20221008/08102022071015_discovery__12___Web_Nhanh_.jpg" style="width:100%">
+                  </div>
+                
+                  <div class="mySlides">
+                    <div class="n umbertext">2 / 6</div>
+                    <img src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20220927/27092022050930_meota__1___Web_Nhanh_.jpg" style="width:100%">
+                  </div>
+                
+                  <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20220919/19092022070906_doiquan__7_.jpg" style="width:100%">
+                  </div>
+                    
+                  <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20220908/08092022060904_con_meo__4___Web_Nhanh_.jpg" style="width:100%">
+                  </div>
+                
+                  <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20220815/15082022010822_Baby__11___Web_Nhanh_.jpg" style="width:100%">
+                  </div>
+                    
+                  <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20220919/19092022070906_doiquan__7_.jpg" style="width:100%">
+                  </div>
+                    
+                  <a class="prev" onclick="plusSlides(-1)">❮</a>
+                  <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                  <div class="caption-container">
+                    <p id="caption"></p>
+                  </div>
+                
+                  <div class="row">
+                    <div class="column">
+                      <img class="demo cursor" src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20221008/08102022071015_discovery__12___Web_Nhanh_.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20220927/27092022050930_meota__1___Web_Nhanh_.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20220919/19092022070906_doiquan__7_.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20220908/08092022060904_con_meo__4___Web_Nhanh_.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20220815/15082022010822_Baby__11___Web_Nhanh_.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                    </div>    
+                    <div class="column">
+                      <img class="demo cursor" src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20220919/19092022070906_doiquan__7_.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                    </div>
+                  </div>
+                </div>      
+  <script>
+    let slideIndex = 1;
+      showSlides(slideIndex);
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+      }
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+      }
+    function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+  </script>
+</div>
+</div>
+        <div class="ttsanpham">
+              <div class="dc"><h1>Áo mèo chơi thể theo</h1></div>
+              <div><h2>100,00đ</h2><h3 style="color: red;">Giảm 50%</h3></div>
+              <div>
+                <h3>Màu sắc</h3>
+                <a href="default.asp" target="_blank" class="color1">ĐỎ</a>
+                <a href="default.asp" target="_blank" class="color2">Xanh</a>
+                <a href="default.asp" target="_blank" class="color3">VÀNG NHẠT</a>
+                <a href="default.asp" target="_blank" class="color4">TRẮNG</a>
+              </div>
+              <div>
+                <p>Kích thước</p>
+                <a href="default.asp" target="_blank" class="color5">XXL</a>
+                <a href="default.asp" target="_blank" class="color5">XL</a>
+                <a href="default.asp" target="_blank" class="color5">L</a>
+                <a href="default.asp" target="_blank" class="color5">M</a>
+              </div>
+              <div class="quantity-area clearfix"><div class="title-quantity">Số lượng</div>
+                  <input type="button" value="-" onclick="minusQuantity()" class="qty-btn tp_button">
+                  <input type="text" id="quantity" name="quantity" value="1" min="1" class="quantity-selector" max="5000">
+                  <input type="button" value="+" onclick="plusQuantity()" class="qty-btn tp_button">
+                  <span class="pro-soldold status-56700">
+                  <span class="statusProduct">Còn hàng</span>
+                </span>
+              </div>
+              <div>
+                <div class="wrap-addcart clearfix">
+                  <button type="button" id="add-to-cart" class="btnAddToCart tp_button" data-psid="38119637" data-selid="38119637" title="" data-ck="0" data-size="1" style=="" data-original-title="Vui lòng chọn màu sắc hoặc kích cỡ!">
+                  Thêm vào giỏ hàng</button>
+                  <button type="button" id="addQuickCart" class="btnAddToCart tp_button" data-psid="38119637" data-selid="38119637" title="" data-ck="0" data-size="1" style=="" data-original-title="Vui lòng chọn màu sắc hoặc kích cỡ!">
+                  Mua ngay</button>
+                </div>
+              </div>
+              <div>
+                <div class="wishlist whist" data-psid="38119637"><div class="fb-like" data-href="https://scottplaton.vn/ao-baby-p38119637.html" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true"></div>
+                <i class="fa fa-heart-o"></i>
+                <span class="favorite">YÊU THÍCH</span></div>
+                  <h2 style="color: red;">HOTLINE</h2>
+                  <span class="infoPolicy"><h5>TỔNG ĐÀI CSKH&nbsp;0377.582.406</h5><p><span>(Từ&nbsp;8h30 - 21:30 mỗi ngày)</span></p>                                                    </span></li>
+              </div>
+        </div>
+        <div class="ttsanphammoi">
+              <h2><a href="default.asp" target="_blank" class="color6">Bạn có thể thích</a></h2>
+              <div class="bg3">
+                <a href="file:///D:/doancuoimon/sanpham.html"><img class="sizeanh1" src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20221008/08102022071015_discovery__12___Web_Nhanh_.jpg"></a>
+                <p>Tên: Áo Discovery</p>
+                <p>Nhãn hàng: Scott Platon</p>
+                <p>Giá: 200.000 VND</p>
+              </div>
+              <a class="dichuyen2" href="http://localhost/Project-Php/sanpham.html">Xem chi tiết</a>
+              <div class="bg4">
+                <a href="file:///D:/doancuoimon/sanpham.html"><img class="sizeanh2" src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20220927/27092022050930_meota__1___Web_Nhanh_.jpg"></a>
+                <p>Tên: Áo Mèo ta</p>
+                <p>Nhãn hàng: Scott Platon</p>
+                <p>Giá: 200.000 VND</p>
+              </div>
+              <a class="dichuyen3" href="http://localhost/Project-Php/sanpham.html">Xem chi tiết</a>
+              <div class="bg5">
+                <a href="file:///D:/doancuoimon/sanpham.html"><img class="sizeanh3" src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20220919/19092022070906_doiquan__7_.jpg"></a>
+                <p>Tên: Áo đội quân cún béo</p>
+                <p>Nhãn hàng: Scott Platon</p>
+                <p>Giá: 200.000 VND</p>
+              </div>
+              <a class="dichuyen4" href="http://localhost/Project-Php/sanpham.html">Xem chi tiết</a>
+              <div class="bg6">
+                <a href="file:///D:/doancuoimon/sanpham.html"><img class="sizeanh4" src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20220908/08092022060904_con_meo__4___Web_Nhanh_.jpg"></a>
+                <p>Tên: Áo luôn vui tươi</p>
+                <p>Nhãn hàng: Scott Platon</p>
+                <p>Giá: 200.000 VND</p>
+              </div>
+              <a class="dichuyen5" href="http://localhost/Project-Php/sanpham.html">Xem chi tiết</a>
+              <div class="bg7">
+                <a href="file:///D:/doancuoimon/sanpham.html"><img class="sizeanh5" src="https://img.cdn.vncdn.io/nvn/ncdn/store2/83461/ps/20220815/15082022010822_Baby__11___Web_Nhanh_.jpg"></a>
+                <p>Tên: Áo Baby</p>
+                <p>Nhãn hàng: Scott Platon</p>
+                <p>Giá: 200.000 VND</p>
+              </div>
+              <a class="dichuyen" href="http://localhost/Project-Php/sanpham.html">Xem chi tiết</a>
+        </div>
+        <div>
+</div>
+</body>
+</html>
